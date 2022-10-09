@@ -11,6 +11,14 @@ export const Post: NextPage = ({ post }) => {
 
   return (
     <>
+      <Head>
+        <title>Refleksologia - Tomasz Kunc</title>
+        <meta
+          name="description"
+          content="Twoje stopy potrzebują masażu po ciężkim dniu pracy , zrelaksowania się. Zadzwoń , napisz a stopy będą lżejsze uśmiechnięte i gotowe do dalszej pracy."
+        />
+        <link rel="icon" href="/favicon.jpg" />
+      </Head>
       <Navigation />
       <div class="bg-white py-6 sm:py-8 lg:py-12">
         <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
