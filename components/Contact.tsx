@@ -20,8 +20,9 @@ export const Contact: NextPage = () => {
             </p>
           </div>
           <div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
-            <div className="flex mb-4">
+            <div className="mb-4">
               <p className="text-white text-2xl font-bold">Tomasz Kunc</p>
+              <p className="text-white text-sm ">Refleksolog</p>
             </div>
             <div className="flex mb-2">
               <PhoneIcon
